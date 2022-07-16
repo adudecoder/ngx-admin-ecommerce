@@ -1,4 +1,8 @@
 import { NgModule } from '@angular/core';
+import {MatTableModule} from '@angular/material/table';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatIconModule} from '@angular/material/icon'
+
 import {
   NbActionsModule,
   NbButtonModule,
@@ -35,6 +39,9 @@ import { FormsModule as ngFormsModule } from '@angular/forms';
     NbSelectModule,
     NbIconModule,
     ngFormsModule,
+    MatTableModule,
+    MatFormFieldModule,
+    MatIconModule
   ],
   declarations: [
     FormsComponent,

@@ -1,0 +1,63 @@
+.container-1 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 15px 15px;
+
+    .container-itens-1 {
+    
+        .buttons {
+            margin-top: 50px;
+            button {
+                margin-left: 10px;
+                padding: 5px;
+            }
+        }
+
+        .sales-clients {
+            
+            .sales {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    .clients {
+       display: flex;
+       flex-direction: column;
+    }
+}
+
+.container-3 {
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 10px 10px 0px 10px;
+
+    .total {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+    }
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 10px;
+   
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .btn-list {
+            
+            button {
+                margin-left: 5px;
+            }
+        }
+    }
+}

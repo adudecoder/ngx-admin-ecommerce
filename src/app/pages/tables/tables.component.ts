@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-tables',
-  template: `<router-outlet></router-outlet>`,
+  selector: 'tables-sales',
+  styleUrls: ['tables.component.scss'],
+  templateUrl: 'tables.component.html',
 })
 export class TablesComponent {
+  selected: Date | null;
 }
