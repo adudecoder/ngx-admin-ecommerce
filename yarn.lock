@@ -2644,7 +2644,7 @@
   "resolved" "https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz"
   "version" "0.7.0"
 
-"chart.js@^2.3.0", "chart.js@2.7.1":
+"chart.js@^2.3.0", "chart.js@^2.7.1":
   "integrity" "sha512-pX1oQAY86MiuyZ2hY593Acbl4MLHKrBBhhmZ1YqSadzQbbsBE2rnd6WISoHjIsdf0WDeC0hbePYCz2ZxkV8L+g=="
   "resolved" "https://registry.npmjs.org/chart.js/-/chart.js-2.7.1.tgz"
   "version" "2.7.1"
